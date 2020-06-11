@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body { 
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 20px; 
+    margin: 0; 
+    background: #000000;
+    background-position: center top;
+    color: #fff;
+    text-align: center;
+    font-size: 15pt;
+}
+
+iframe {
+    margin: 100px 0;
+}
+button {
+    font-family: 'Noto Sans KR', sans-serif;
+    border-color: #000000;
+    background: #ffffff;
+    padding: 8px 12px;
+    font-size: 12pt;
+}

@@ -1,0 +1,171 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body { 
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 0; 
+    margin: 0; 
+    background: #505867 url("images/background.png") no-repeat;
+    background-size: 100%;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 293px;
+    height: 195px;
+}
+
+@media ( max-width: 603px ) {
+    .logo {
+        width: 147px;
+        height: 98px;
+    }
+}
+
+.my-info {
+    position: absolute;
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(152, 179, 197);
+    font-weight: normal;
+    top: 60px;
+    right: 60px;
+    border-radius: 7px;
+}
+@media ( max-width: 603px ) {
+    .my-info {
+        position: absolute;
+        display: inline-block;
+        padding: 5px 15px;
+        background-color: rgba(0, 0, 0, 0.678);
+        color: rgb(152, 179, 197);
+        font-weight: normal;
+        top: 20px;
+        right: 20px;
+        border-radius: 7px;
+    }
+}
+
+.my-name {
+    font-weight: bold;
+    font-size: 15pt;
+    padding: 10px 10px 0px 10px;
+}
+.my-btn {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 11pt;
+    padding: 5px 10px;
+}
+
+@media ( min-width: 1500px ) {
+    .my-name {
+        font-weight: bold;
+        font-size: 18pt;
+        padding: 10px 10px 0px 10px;
+    }
+    .my-btn {
+        display: inline-block;
+        font-weight: normal;
+        font-size: 14pt;
+        padding: 5px 10px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.678);
+    text-align: center;
+}
+li {
+    font-weight: bold;
+    display: inline-block;
+    color: rgb(152, 179, 197);
+    text-align: center;
+    font-size: 10pt;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+@media ( min-width: 1500px ) {
+    li {
+        font-weight: bold;
+        display: inline-block;
+        color: rgb(152, 179, 197);
+        text-align: center;
+        font-size: 13pt;
+        padding: 10px 40px;
+        text-decoration: none;
+    }
+}
+
+.post {
+    padding: 15px;
+}
+.post-head {
+    display: block;
+    padding: 5px 15px;
+    color: #000000;
+}
+.post-board {
+    color: #c90000;
+    font-weight: bold;
+    font-size: 13pt;
+}
+.post-title {
+    color: #000000;
+    font-weight: bold;
+    font-size: 13pt;
+}
+.post-info {
+    font-size: 10pt;
+}
+.post-body {
+    display: block;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(152, 179, 197);
+    font-weight: normal;
+    font-size: 12pt;
+    border-radius: 7px;
+    word-wrap: break-word;
+}
+@media ( min-width: 1500px ) {
+
+    .post-board {
+        color: #c90000;
+        font-weight: bold;
+        font-size: 16pt;
+    }
+    .post-title {
+        color: #000000;
+        font-weight: bold;
+        font-size: 16pt;
+    }
+    .post-info {
+        font-size: 15pt;
+    }
+    .post-body {
+        display: block;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.678);
+        color: rgb(152, 179, 197);
+        font-weight: normal;
+        font-size: 17pt;
+        border-radius: 7px;
+        word-wrap: break-word;
+    }
+}
+
+a {
+    color: rgb(152, 179, 197);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(69, 107, 133);
+    text-decoration: none;
+}

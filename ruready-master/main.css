@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body { 
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 20px; 
+    margin: 0; 
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.quiz {
+    width: 700px;
+    margin: 40px;
+}
+@media ( max-width: 700px ) {
+    .quiz {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+
+div {
+    padding: 10px;
+}
+
+.outer {
+    margin-bottom: 20px;
+}
